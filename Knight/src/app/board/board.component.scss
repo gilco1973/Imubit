@@ -5,6 +5,7 @@ body {
 table {
 	margin: 0 auto;
 	background: black;
+	z-index: 0;
 }
 td {
     width: 80px; height: 80px;
@@ -12,4 +13,15 @@ td {
 
 tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
 	background: white;
+}
+.knight{
+	background-image: url('../../assets/images/knight.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 1;
+	width: 70px;
+    height: 75px;
+    background-size: contain;
+	border-radius: 50%;
+	margin:auto;
 }
